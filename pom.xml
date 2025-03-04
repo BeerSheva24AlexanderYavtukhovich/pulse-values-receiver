@@ -18,6 +18,11 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
+        <dependency>
+            <groupId>telran.monitoring</groupId>
+            <artifactId>pulse-monitoring-api</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!--
 		https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb -->
@@ -47,10 +52,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass><!-- Here come the main class
-            ...
-            -->
-                            </mainClass>
+                            <mainClass>telran.monitoring.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
