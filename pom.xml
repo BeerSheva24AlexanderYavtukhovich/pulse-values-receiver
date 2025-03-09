@@ -27,11 +27,6 @@
 		https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb -->
         <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>dynamodb</artifactId>
-            <version>2.28.24</version>
-        </dependency>
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>2.0.17</version>
@@ -40,6 +35,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>2.0.17</version>
+        </dependency>
+        <dependency>
+            <groupId>telran.monitoring</groupId>
+            <artifactId>middleware-data-stream-impl</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
     <build>
